@@ -1,0 +1,57 @@
+Install:
+--------
+sudo -s koni --> Admin in console
+
+npm install -g cordova
+
+Uninstall:
+----------
+sudo npm uninstall cordova -g
+
+
+Create new project
+------------------
+cordova create hello com.example.hello HelloWorld
+
+    - hello - directory name
+    - com.example.hello - package name
+    - HelloWorld - app display text
+See config.xml for later changes during development. 
+
+Directory structure
+-------------------
+hello/
+|--.cordova/
+|-- merges/
+| | |-- android/
+| | |-- blackberry10/
+| | `-- ios/
+|-- www/
+| `-- config.xml
+|-- platforms/
+| |-- android/
+| |-- blackberry10/
+| `-- ios/
+`-- plugins/
+
+Add plattform
+-------------
+cordova platform add ios|android|wp8|wp7|blackberry10
+ 
+ 
+Build specific platform
+-----------------------
+cordova build ios
+
+Alternative:
+
+cordova prepare ios
+cordova compile ios
+
+Add a plugin
+------------
+cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-device.git
+
+List installed plugins
+-----------------------
+cordova plugin ls

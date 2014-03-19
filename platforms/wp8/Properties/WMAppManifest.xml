@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Deployment AppPlatformVersion="8.0" xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment">
+    <DefaultLanguage code="de-CH" xmlns="" />
+    <Languages xmlns="">
+        <Language code="de" />
+        <Language code="de-AT" />
+        <Language code="de-LI" />
+        <Language code="de-CH" />
+        <Language code="de-LU" />
+        <Language code="de-DE" />
+    </Languages>
+    <App Author="Koni" BitsPerPixel="32" Description="Feiertage Rechner bis 2099&#xD;&#xA;--------------------------&#xD;&#xA;&#xD;&#xA;Mit dieser App kannst du die wichtigsten Feier- und Fest-Tage zwischen den Jahren 1900 bis 2099 bestimmen.&#xD;&#xA;&#xD;&#xA;Hier ein Ausschnitt aus den Feiertagen:&#xD;&#xA;&#xD;&#xA;Neujahr&#xD;&#xA;Berchtoldstag&#xD;&#xA;Heilige 3 Könige&#xD;&#xA;Val" Genre="apps.normal" ProductID="{A7216C52-A492-4A9C-86C1-2A34EB6CC3D3}" Publisher="Koni" PublisherID="{db093ed5-53b1-45f7-af72-751e8f36ab80}" RuntimeType="Silverlight" Title="Feiertag Rechner" Version="0.0.1" xmlns="">
+        <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
+        <Capabilities>
+            <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+            <Capability Name="ID_CAP_NETWORKING" />
+        </Capabilities>
+        <Tasks>
+            <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+        </Tasks>
+        <Tokens>
+            <PrimaryToken TaskName="_default" TokenID="Feiertag RechnerToken">
+                <TemplateFlip>
+                    <SmallImageURI IsRelative="true" IsResource="false">ApplicationIcon.png</SmallImageURI>
+                    <Count>0</Count>
+                    <BackgroundImageURI IsRelative="true" IsResource="false">Background.png</BackgroundImageURI>
+                    <Title />
+                    <BackContent />
+                    <BackBackgroundImageURI IsRelative="true" IsResource="false" />
+                    <BackTitle />
+                    <LargeBackgroundImageURI IsRelative="true" IsResource="false">windows-store-tiles-310x150.png</LargeBackgroundImageURI>
+                    <LargeBackContent />
+                    <LargeBackBackgroundImageURI IsRelative="true" IsResource="false" />
+                    <DeviceLockImageURI IsRelative="true" IsResource="false" />
+                    <HasLarge>True</HasLarge>
+                </TemplateFlip>
+            </PrimaryToken>
+        </Tokens>
+        <ScreenResolutions>
+            <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+            <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+            <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+        </ScreenResolutions>
+    </App>
+</Deployment>

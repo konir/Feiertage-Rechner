@@ -1,0 +1,22 @@
+{
+    "version":"0.1",
+        "name": "Feiertage Rechner",
+    "description": "Mit dieser App kannst du die wichtigsten Feier- und Fest-Tage zwischen den Jahren 1900 bis 2099 bestimmen.",
+    "launch_path": "/index.html",
+        "fullscreen": "false",
+     "icons": {
+        "16": "http://koni.mobi/feiertage/img/iconFFOS/icon_16x16.png",
+        "32": "http://koni.mobi/feiertage/img/iconFFOS/icon_32x32.png",
+        "48": "http://koni.mobi/feiertage/img/iconFFOS/icon_48x48.png",
+        "60": "http://koni.mobi/feiertage/img/iconFFOS/icon_60x60.png",
+        "90": "http://koni.mobi/feiertage/img/iconFFOS/icon_90x90.png",
+        "120": "http://koni.mobi/feiertage/img/iconFFOS/icon_120x120.png",
+        "128": "http://koni.mobi/feiertage/img/iconFFOS/icon_128x128.png",
+        "256": "http://koni.mobi/feiertage/img/iconFFOS/icon_256x256.png"
+    },
+        "developer": {
+        "name": "Koni",
+        "url": "http://koni.mobi/feiertage"
+    },
+    "default_locale": "de"
+}

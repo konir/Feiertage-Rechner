@@ -1,0 +1,14 @@
+E:\platforms\wp8\Bin\Release\ApplicationIcon.png
+E:\platforms\wp8\Bin\Release\Background.png
+E:\platforms\wp8\Bin\Release\feiertage.koni.mobi.dll
+E:\platforms\wp8\Bin\Release\feiertage.koni.mobi.pdb
+E:\platforms\wp8\Bin\Release\AppManifest.xaml
+E:\platforms\wp8\Bin\Release\Properties\WMAppManifest.xml
+E:\platforms\wp8\Bin\Release\FeiertageRechner_Release_AnyCPU.xap
+E:\platforms\wp8\obj\Release\App.g.cs
+E:\platforms\wp8\obj\Release\cordovalib\CordovaView.g.cs
+E:\platforms\wp8\obj\Release\MainPage.g.cs
+E:\platforms\wp8\obj\Release\feiertage.koni.mobi.g.resources
+E:\platforms\wp8\obj\Release\feiertage.koni.mobi.dll
+E:\platforms\wp8\obj\Release\feiertage.koni.mobi.pdb
+E:\platforms\wp8\obj\Release\XapCacheFile.xml
